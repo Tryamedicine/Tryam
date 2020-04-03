@@ -2,6 +2,7 @@ baseURL = "https://example.com"
 languageCode = "en-us"
 title = "Tryam"
 theme = "LeaveIt"
+publishDir = "docs"
 
 paginate = 12
 enableEmoji = true

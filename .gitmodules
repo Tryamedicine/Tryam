@@ -1,0 +1,3 @@
+[submodule "Tryamedicine.github.io"]
+	path = Tryamedicine.github.io
+	url = git@github.com:Tryamedicine/Tryamedicine.github.io.git
