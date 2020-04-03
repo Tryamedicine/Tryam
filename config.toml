@@ -1,0 +1,56 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Tryam"
+theme = "LeaveIt"
+
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+
+preserveTaxonomyNames = true
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 2
+
+  
+
+[params]
+   
+    author = "Tryam"                           # Author's name
+    avatar = "/images/me/Profile_me.jpg"           # Author's avatar
+    subtitle = "岁月流逝，行于初心，不偏不倒，不休不止"         # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+
+    google_verification = ""
+   
+    description = "" # site description
+    keywords = "" # site keywords
+
+    beian = ""
+    baiduAnalytics = ""
+
+
+[params.social]
+    GitHub = "xxoo"
+    Email   = "shiao.qin@sjtu.edu.cn"
+    Wechat = "/images/me/wechat.jpg"  # Wechat QRcode image
+
+
